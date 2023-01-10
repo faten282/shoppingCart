@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Shopping cart | Home page</title>
+</head>
+<body>
+    <!--nav bar section-->
+  <header>
+  <nav class="nav-bar">
+    <div class="container">
+        <div class="nav-wrapper">
+          <div class="logo">
+        <a href="index.html" class="logo">shopping cart</a>
+        <i class="fa-solid fa-cart-shopping"></i>
+      </div>
+        <i class="fa-sharp fa-solid fa-basket-shopping-simple"></i>
+      <div class="navlist" id="navlist">
+     <li><a href="login.html">Signin</a></li>
+     <li><a href="register.html">Signup</a></li>
+    </div>
+    <div class="userName" id="userName">
+       <li><a href="profile.html" id="userInfo">faten</a></li>
+       <li><a href="#"></a>  <i class="fa-solid fa-cart-shopping icon"  id="icon"data-content="0">
+        <div class="cart-prodects">
+        <div></div>
+          <a href="addTocart.html">view all prodects</a>
+         </div>
+
+       </i></li>
+       <li><a href="fav.html">favorites</a></li>
+       <li><a href="myPro.html">My products</a></li>
+       <li><a href="#" id="logout">logout</a></li>  
+    </div>
+   </div>
+  </div>
+  </nav>
+ </header>  
+ <!-- End of nav bar section-->
+
+<section class="home">
+<div class="container">
+<div class="search"><input type="text" id="search" placeholder="search by title"></div>
+<div class="proAndfilter">
+<div class="prodects" id="prodects"></div>
+<div class="pro-filter">
+  <h2>Filter by size:</h2>
+<select name="size"  class="size-filter" id="sizeF" >
+<option value="filter by size" hidden>filter by size</option>
+<option value="all">all</option>
+<option value="small">small</option>
+<option value="medium">medium</option>
+<option value="large">large</option>
+</select>
+</div>
+</div>
+</div>
+</div>
+
+
+
+<div  ><a href="creatprodect.html"class="creatItem" ><i class="fa fa-plus"></i></a></div>
+
+</section>
+
+<script src="./js/user.js"></script>
+<script src="./js/data.js"></script>
+<script src="./js/script.js"></script>
+
+
+</body>
+</html>

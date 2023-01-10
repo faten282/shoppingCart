@@ -1,0 +1,47 @@
+.creat-prodects{
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 1rem;
+
+
+}
+.creat-prodects form
+{
+display: flex;
+flex-direction: column;
+gap:1rem;
+width: 1000px;
+
+}
+.creat-prodects input{
+font-size: large;
+width: 100%;
+padding: 0.5rem;
+border-radius: 8px;
+border-color: rgb(171, 175, 179);
+height: 50px;
+}
+.creat-prodects textarea{
+    font-size: large;
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 8px;
+    border-color: rgb(171, 175, 179); 
+    height: 100px;
+}
+.creat-prodects select
+{
+    font-size: large;
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 8px;  
+}
+.creat-prodects input[type=submit]{
+    background-color: var(--bg-color);
+    font-size: 1.7rem;
+    color: var(--nav-text-color);
+    font-family: sans-serif;
+    border: none;
+    cursor: pointer;
+}

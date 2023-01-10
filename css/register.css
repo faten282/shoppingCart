@@ -1,0 +1,116 @@
+:root{
+    --bg-color:rgb(84, 125, 133);
+    --bg-bold-color:rgb(31, 135, 161);
+    --nav-text-color:rgb(226, 191, 197);
+    }
+    body{
+        overflow: hidden;
+    }
+   .container
+   {
+   max-width: 100%;
+   margin: 0 auto;
+
+   }
+  /*nav styles*/
+   .nav-wrapper
+   {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 6rem;
+    background: var(--bg-color);
+    font-family: 'Poppins', sans-serif;
+   }
+
+   .logo
+   {
+    font-size: 2rem;
+    color: var(--nav-text-color);
+    text-transform: uppercase;
+   }
+   .navlist 
+   {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    list-style: none;
+   }
+   .navlist a 
+   {
+    color: var(--nav-text-color);
+   }
+   /*End of nav styels*/
+
+   /*form styles*/
+    .form{
+        display: flex;
+        justify-content:start;
+        align-items:center;
+        height: 100vh;
+        background: var(--nav-text-color);
+    }
+   .form-wrapper
+   {
+    text-align: left;
+    padding: 3rem 5rem;
+    background:var(--bg-color);
+    border-radius: 1rem ;
+    font-family: 'Poppins', sans-serif;
+    
+   }
+   .form-title
+   {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: var(--nav-text-color);
+    text-transform: uppercase;
+   }
+   .form-item
+   {
+    display: flex;
+    flex-direction: column;
+   
+   }
+   .form-item label
+   {
+   margin-bottom: 0.5rem;
+   color: var(--nav-text-color);
+   }
+   .form-item input
+   {
+    margin-bottom: 0.5rem;
+    border-radius: 4px;
+    line-height:1rem;
+     outline: none;
+     border: none;
+   }
+   .btn-wrapper
+   {
+    display: flex;
+    justify-content: center;
+   }
+   .btn-styles
+   {
+    background: var(--nav-text-color);
+    border: none;
+    padding: .3rem .9rem;
+    font-size: 1.3rem;
+    border-radius: 3px;
+    margin-bottom: 0.5rem;
+    color: var(--bg-bold-color);
+    margin-bottom: 0.5rem;
+   }
+   .form-text
+   {
+    font-size: 1rem;
+    color: var(--nav-text-color);
+
+   }
+   .form-text a{
+    color: var(--nav-text-color);
+   }
+/*End form styles*/
